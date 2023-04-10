@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+tion valua="advert">Advert</option>
+<option valua="other">Other</option>
+</select>
+</p<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="uft-8">
@@ -19,7 +22,4 @@
 <select name="referre" id="hear about">
 <option valua="gooole">Google</option>
 <option valua="friend">Friend</option>
-<option valua="advert">Advert</option>
-<option valua="other">Other</option>
-</select>
-</p>
+<op>
