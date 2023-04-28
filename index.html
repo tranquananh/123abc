@@ -1,28 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta  char="UPT-8"
-<title> danh sach trong html</title></head>
-<body>
-<h1>danh sach do uong </h1>
-<u1>
-<li>coffe</li>
-<li>tea</li>
-<li>milk</li>
-</u1>
-<h2>danh sach do an </h2>
-<u2>
-<li>chao suon</li>
-<li>com tam</li>
-<li>bun rieu</li>
-<li>trung vit lon</li>
-</u2>
-<h3>danh sach do an vat</h3>
-<u3>
-<li>khoai tay chien</li>
-<li>khoai lang ken</li>
-<li>kho ga</li>
-<li>kho heoc chay toi</li>
-</u3>
-</body>
-</html>
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-AU-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,intial-scal=1.0">
+        <link rel="stylesheet" href="style,css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.15.4/css/all.min.css"
+        integrity="sha5121ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFl
+        cgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        </head>
+        <body>
+          <div class="container">
+            <form action="#" id="form method=post">
+                <header>
+                    <h1>Create Account</h1>
+                    <h2> Get started with your free account </h2>
+                </header>
+                <div class="btn">
+                    <div class="btn1">
+                        <img src="image/twitter.svg" alt="" class="img">
+                        Login viua Twitter
+                    </div>
+                </div>
+                <div class="or">Or</div>
+                <!--Nmae input-->
+                <div>
+                    <label for="name"></label>
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name" id="name" placeholder="Full name">
+                    <i class="fas fa-exclamation-circle failure"></i>
+                    <i class fas fa-check-circle success-icon></i>
+                    <div class="error"></div>
+                </div>
+                <!--Email Input-->
+                <div>
+
+                    <label for="email"></label>
+                    <i class="fas fa-envelope"></i>
+                    <input tytpe="email" name="email" id="email" placeholder="email address">
+                    <i class="fas fa-exclamation-circle success-icon"></i>
+                    <div class="error"></div>
+                </div>
+                <!--Telephone input-->
+                <div>
+                    <label for="tel"></label>
+                    <i class="fas fa-phone"></i>
+                    <select name="zone" id="zone">
+                        <option selected>+84</option>
+                    </select>
+                    <input type="tel" name="tel" id="tel" placeholder="Phone number">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                </div>
+                <!--Job type-->
+                <div>
+                    <label for="job"></label>
+                    <i class="fas fa-building"></i>
+                    <select class="form-control">
+                    <option selected>Select job type</option>
+                    <option>Designer</option>
+                    <option>Manager</option>
+                    <option>Accaunting</option>
+                    </select>
+                </div>
+                <!--Password-->
+                <div>
+                    <label for="password"></label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="create password">
+                    <i classn fas fa-exclamation-circle failure-icon></i>
+                    <i class fas-fa-check-circle succcess-icon></i>
+                    <div class="error"></div>
+                 </div>
+                 <!--Repeat password-->
+                 <div>
+                    <label for="repeatPassword"></label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="repeatPassword" id="repeatPassword" placeholder="Repeat password">
+                    <i classs="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="fas fa-check-circle success-icon"></i>
+                    <div class="eorro"></div>
+                 </div>
+                 <button id="btn" type="submit">Create Account</button>
+                 <div >Have an account?<a href=#></a></div>
+            </form>
+          </div>  
+        </body>
+     </html>

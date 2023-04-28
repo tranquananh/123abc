@@ -1,4 +1,4 @@
- alert(Hello, World);
+t alert(Hello, World);
 //JavaScript Symtax aka cu phap cua javasript
 
 //variable
@@ -98,7 +98,7 @@ address:{
     country:'Viet Nam',
 }
 }
-//de truy cap vao thuoc tinh(propery)cua foi tuong(object)
+//de truy cap vao thuoc tinh(propery)cua toi tuong(object)
 //su dung.or[]:contact.firstname or contact['firstname']
 console.og(contact['age']);adding property
 //deleete property
